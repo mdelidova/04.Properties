@@ -7,7 +7,7 @@
 //
 
 #import "AppDelegate.h"
-
+#import "MDObject.h"
 @interface AppDelegate ()
 
 @end
@@ -17,7 +17,21 @@
 
 - (BOOL)application:(UIApplication *)application didFinishLaunchingWithOptions:(NSDictionary *)launchOptions {
     // Override point for customization after application launch.
+    
+    [self testObject];
+    
+    NSLog(@"TEST IS OVER");
+    
+    
     return YES;
+}
+
+-(void) testObject {
+    
+    MDObject* obj = [[MDObject alloc] init];
+    
+    self.object = obj;
+    
 }
 
 

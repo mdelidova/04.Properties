@@ -13,6 +13,7 @@
 		245A414E204B228600D967FC /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 245A414D204B228600D967FC /* Assets.xcassets */; };
 		245A4151204B228600D967FC /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 245A414F204B228600D967FC /* LaunchScreen.storyboard */; };
 		245A4154204B228600D967FC /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 245A4153204B228600D967FC /* main.m */; };
+		245A415C204B22A900D967FC /* MDObject.m in Sources */ = {isa = PBXBuildFile; fileRef = 245A415B204B22A900D967FC /* MDObject.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -26,6 +27,8 @@
 		245A4150204B228600D967FC /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		245A4152204B228600D967FC /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		245A4153204B228600D967FC /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		245A415A204B22A900D967FC /* MDObject.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = MDObject.h; sourceTree = "<group>"; };
+		245A415B204B22A900D967FC /* MDObject.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = MDObject.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -58,6 +61,8 @@
 		245A4143204B228500D967FC /* ParametersTest */ = {
 			isa = PBXGroup;
 			children = (
+				245A415A204B22A900D967FC /* MDObject.h */,
+				245A415B204B22A900D967FC /* MDObject.m */,
 				245A4144204B228500D967FC /* AppDelegate.h */,
 				245A4145204B228500D967FC /* AppDelegate.m */,
 				245A4147204B228500D967FC /* ViewController.h */,
@@ -143,6 +148,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				245A4149204B228500D967FC /* ViewController.m in Sources */,
+				245A415C204B22A900D967FC /* MDObject.m in Sources */,
 				245A4154204B228600D967FC /* main.m in Sources */,
 				245A4146204B228500D967FC /* AppDelegate.m in Sources */,
 			);
