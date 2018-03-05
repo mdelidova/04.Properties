@@ -27,7 +27,13 @@
     MDObject* newObject = [[MDObject alloc] init];
     newObject.name = self.name;
     return newObject;
+}
+
++(NSString*) sayFullName{
     
+    return @"";
 }
 
 @end
+
+
