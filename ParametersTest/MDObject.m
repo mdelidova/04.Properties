@@ -23,4 +23,11 @@
     NSLog(@"object is deallocated");    
 }
 
+- (id)copyWithZone:(nullable NSZone *)zone {
+    MDObject* newObject = [[MDObject alloc] init];
+    newObject.name = self.name;
+    return newObject;
+    
+}
+
 @end

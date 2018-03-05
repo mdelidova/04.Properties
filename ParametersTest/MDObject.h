@@ -8,8 +8,14 @@
 
 #import <Foundation/Foundation.h>
 
-@interface MDObject : NSObject
+@interface MDObject : NSObject <NSCopying>
 
 @property (strong,nonatomic) NSString* name;
+
+@property (strong, nonatomic) NSString* firstName;
+
+@property (strong, nonatomic) NSString* lastName;
+
+@property (readonly, nonatomic) NSString* fullName;
 
 @end
