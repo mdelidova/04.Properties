@@ -18,4 +18,6 @@
 
 @property (readonly, nonatomic) NSString* fullName;
 
++(NSString*) sayFullName;
+
 @end
