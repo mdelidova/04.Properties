@@ -29,9 +29,14 @@
     return newObject;
 }
 
-+(NSString*) sayFullName{
+-(NSString*) fullName {
+   
+    return [NSString stringWithFormat:@"%@ %@", self.firstName, self.lastName];
     
-    return @"";
+}
+
+-(NSString*) sayFullName {
+    return [NSString stringWithFormat: @" full name %@ ", self.fullName];
 }
 
 @end
