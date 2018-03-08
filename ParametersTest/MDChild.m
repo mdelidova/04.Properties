@@ -12,7 +12,7 @@
 
 - (NSString*) greeting {
     
-    return [NSString stringWithFormat:@"Hello, %@ %@", self.firstNameOfGirl, self.lastNameOfGirl];
+    return [NSString stringWithFormat:@"Greeting, %@ %@ !", self.firstName, self.lastName];
     
 }
 

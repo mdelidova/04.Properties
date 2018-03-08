@@ -10,9 +10,9 @@
 
 @interface MDParent : NSObject
 
-@property (strong, nonatomic) NSString* firstNameOfGirl;
+@property (strong, nonatomic) NSString* firstName;
 
-@property (strong, nonatomic) NSString* lastNameOfGirl;
+@property (strong, nonatomic) NSString* lastName;
 
 - (NSString*) greeting;
 

@@ -25,13 +25,23 @@
     
     NSLog(@"TEST IS OVER");
     
-    MDChild* parent = [[MDChild alloc] init];
-   
-    [ parent setFirstNameOfGirl:@"Maryna"];
+    MDParent* parent = [[MDParent alloc] init];
     
-    [parent setLastNameOfGirl:@"Delidova"];
+    [parent setFirstName:@"Vitaliy"];
+    
+    [parent setLastName:@"Deldiov"];
     
     NSLog(@"%@", [parent greeting]);
+    
+    MDChild* child = [[MDChild alloc] init];
+   
+    [child setFirstName:@"Maryna"];
+    
+    [child setLastName:@"Delidova"];
+    
+    NSLog(@"%@", [child greeting]);
+    
+    
     
     return YES;
 }
