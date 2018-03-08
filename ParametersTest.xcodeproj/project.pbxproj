@@ -7,6 +7,8 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		2441FAAA2051288C005CC9D3 /* MDParent.m in Sources */ = {isa = PBXBuildFile; fileRef = 2441FAA92051288C005CC9D3 /* MDParent.m */; };
+		2441FAAD205132F9005CC9D3 /* MDChild.m in Sources */ = {isa = PBXBuildFile; fileRef = 2441FAAC205132F9005CC9D3 /* MDChild.m */; };
 		245A4146204B228500D967FC /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 245A4145204B228500D967FC /* AppDelegate.m */; };
 		245A4149204B228500D967FC /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 245A4148204B228500D967FC /* ViewController.m */; };
 		245A414C204B228600D967FC /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 245A414A204B228600D967FC /* Main.storyboard */; };
@@ -17,6 +19,10 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		2441FAA82051288C005CC9D3 /* MDParent.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = MDParent.h; sourceTree = "<group>"; };
+		2441FAA92051288C005CC9D3 /* MDParent.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = MDParent.m; sourceTree = "<group>"; };
+		2441FAAB205132F9005CC9D3 /* MDChild.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = MDChild.h; sourceTree = "<group>"; };
+		2441FAAC205132F9005CC9D3 /* MDChild.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = MDChild.m; sourceTree = "<group>"; };
 		245A4141204B228500D967FC /* ParametersTest.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = ParametersTest.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		245A4144204B228500D967FC /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
 		245A4145204B228500D967FC /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
@@ -61,6 +67,10 @@
 		245A4143204B228500D967FC /* ParametersTest */ = {
 			isa = PBXGroup;
 			children = (
+				2441FAA82051288C005CC9D3 /* MDParent.h */,
+				2441FAA92051288C005CC9D3 /* MDParent.m */,
+				2441FAAB205132F9005CC9D3 /* MDChild.h */,
+				2441FAAC205132F9005CC9D3 /* MDChild.m */,
 				245A415A204B22A900D967FC /* MDObject.h */,
 				245A415B204B22A900D967FC /* MDObject.m */,
 				245A4144204B228500D967FC /* AppDelegate.h */,
@@ -148,9 +158,11 @@
 			buildActionMask = 2147483647;
 			files = (
 				245A4149204B228500D967FC /* ViewController.m in Sources */,
+				2441FAAA2051288C005CC9D3 /* MDParent.m in Sources */,
 				245A415C204B22A900D967FC /* MDObject.m in Sources */,
 				245A4154204B228600D967FC /* main.m in Sources */,
 				245A4146204B228500D967FC /* AppDelegate.m in Sources */,
+				2441FAAD205132F9005CC9D3 /* MDChild.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

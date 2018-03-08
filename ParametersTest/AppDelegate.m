@@ -8,6 +8,9 @@
 
 #import "AppDelegate.h"
 #import "MDObject.h"
+#import "MDParent.h"
+#import "MDChild.h"
+
 @interface AppDelegate ()
 
 @end
@@ -22,6 +25,13 @@
     
     NSLog(@"TEST IS OVER");
     
+    MDChild* parent = [[MDChild alloc] init];
+   
+    [ parent setFirstNameOfGirl:@"Maryna"];
+    
+    [parent setLastNameOfGirl:@"Delidova"];
+    
+    NSLog(@"%@", [parent greeting]);
     
     return YES;
 }
